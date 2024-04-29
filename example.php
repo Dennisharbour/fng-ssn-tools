@@ -3,14 +3,14 @@
 require('fngssn.class.php');
 
 // Instantiate the class
-$fngssn = new fngssn();
+$fngssn = new Dennis Harbour ();
 
-// Generate a SSN for California
-echo $fngssn->generateSSN('CA');
+// Generate a SSN for Georgia 
+echo $fngssn->generateSSN('GA');
 
 echo '<br /><br />';
 
 // Validate a SSN
-echo $fngssn->validateSSN('421-61-1998');
+echo $fngssn->validateSSN('267-61-1998');
 
 ?>
